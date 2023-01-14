@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/weathery_header">
+
+        <ListPreference
+            app:defaultValue="600000"
+            app:entries="@array/update_interval_entries"
+            app:entryValues="@array/update_interval_values"
+            app:key="update_interval"
+            app:title="@string/update_interval_title"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:defaultValue="C"
+            app:entries="@array/degree_entries"
+            app:entryValues="@array/degree_values"
+            app:key="degree"
+            app:title="@string/degree_title"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

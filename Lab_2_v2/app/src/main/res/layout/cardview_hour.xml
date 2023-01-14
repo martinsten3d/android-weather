@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardElevation="0dp"
+    android:layout_marginBottom="1dp"
+    android:layout_marginTop="1dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_hour_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/time_value"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/imageview_hour_symbol"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"/>
+
+        <TextView
+            android:id="@+id/textview_hour_temperature"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/temperature_value"
+            android:textSize="16sp"
+            android:textAlignment="viewEnd"/>
+
+        <TextView
+            android:id="@+id/textview_hour_precipitation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/precipitation_value"
+            android:textSize="16sp"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/blue_700"/>
+
+        <TextView
+            android:id="@+id/textview_hour_windspeed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="@string/windspeed_value"
+            android:textSize="16sp"
+            android:textAlignment="viewEnd"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>

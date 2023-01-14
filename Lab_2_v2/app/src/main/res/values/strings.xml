@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Weathery</string>
+    <string name="enter_location">Enter location</string>
+    <string name="submit">Submit</string>
+    <string name="time">Time</string>
+    <string name="temperature">Temperature %s</string>
+    <string name="precipitation">Precip. mm</string>
+    <string name="wind">Wind m/s</string>
+    <string name="time_value">%02d</string>
+    <string name="temperature_value">%.1f°</string>
+    <string name="precipitation_value">%.1f</string>
+    <string name="windspeed_value">%.1f</string>
+
+    <string name="favourites_temperature_value">%.1f°%s</string>
+    <string name="favourites_precipitation_value">%.1f mm</string>
+    <string name="favourites_windspeed_value">%.1f m/s</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="my_locations">My locations</string>
+    <string name="favourites_weather">%.1f°C&#160;&#160;&#160;&#160;%.1f mm&#160;&#160;&#160;&#160;%.1f m/s</string>
+
+    <string name="appbar_approved">Approved&#160;</string>
+    <string name="appbar_outofdate">Out of date</string>
+
+    <string name="toast_forecast_updated">Forecast updated</string>
+    <string name="toast_offline">Offline</string>
+    <string name="toast_location_error">Location does not exist</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preferences -->
+    <string name="weathery_header">Weathery</string>
+    <string name="update_interval_title">Update forecast every</string>
+    <string name="degree_title">Temperature scale</string>
+</resources>
